@@ -18,7 +18,7 @@ Welcome to my learning and troubleshooting log.
 - **Gaming** — [Prism Launcher — Minecraft 1.7.10 Session](./gaming/prism_launcher_1.7.10_session.md)
 - **Learning** — [Folder Organization: What I Learned](./learning/folder-organization-learning.md), [Android Calculator Mod](./learning/android-calculator-mod.md)
 - **Reference** — [Shortcut Cheat Sheet](./reference/shortcuts-cheatsheet.md)
-- - **Windows** — [Windows Ricing Draft](./windows/windows-ricing-draft.md) (Rainmeter skin config: [MiniStat.ini](./windows/MiniStat.ini))
+- **Windows** — [Windows Ricing Draft](./windows/windows-ricing-draft.md) (Rainmeter skin config: [MiniStat.ini](./windows/MiniStat.ini))
 
 ## Templates
 
