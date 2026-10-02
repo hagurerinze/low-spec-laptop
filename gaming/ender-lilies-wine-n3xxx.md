@@ -5,7 +5,7 @@ Notes from getting *ENDER LILIES: Quietus of the Knights* (Windows build) runnin
 ## Setup
 
 - CPU: Intel Celeron N3xxx, RAM: 2GB
-- OS: Debian 13 (trixie) with bspwm (not XFCE)
+- OS: Debian 13 (trixie) with XFCE
 - GPU: Intel HD Graphics 500 (Apollo Lake), Mesa 25.0.7, Vulkan works
 - Wine: 10.0 (Debian repack), prefix at `~/.wine-ender`
 - Game folder: `~/ENDER LILIES Quietus of the Knights`
