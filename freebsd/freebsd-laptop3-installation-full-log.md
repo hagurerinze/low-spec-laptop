@@ -239,17 +239,17 @@ was the wireless configuration.
 Working Wi-Fi network:
 
 ```text
-SSID: Blooming Jasmine
-BSSID: 94:b2:71:15:a3:4c
+SSID: [REDACTED]
+BSSID: [REDACTED]
 ```
 
 The WPA configuration was structured as:
 
 ```text
 network={
-    ssid="Blooming Jasmine"
+    ssid="[REDACTED]"
     psk=<hashed-password>
-    bssid=94:b2:71:15:a3:4c
+    bssid=[REDACTED]
 }
 ```
 
