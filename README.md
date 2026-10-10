@@ -4,34 +4,50 @@ Welcome to my learning and troubleshooting log.
 
 ## Purpose
 
-- Document my learning process on old/low-spec hardware (2GB RAM Debian laptop, 10-year-old HDD, and others).
-- Keep a record of real problems I found and how I solved (or failed to solve) them.
-- Build a personal portfolio of practical Linux/system troubleshooting.
+- Write down what I learn on old, low-spec computers.
+- Keep a record of real problems, and how I fixed them (or failed to fix them).
+- Build a personal portfolio of practical Linux and system troubleshooting.
+
+## My laptops
+
+Most notes are about these three laptops. All of them are low-spec on purpose.
+
+| Laptop | CPU | RAM | Notes |
+|---|---|---|---|
+| Celeron N3xxx laptop | Intel Celeron N3xxx | 2 GB | Debian, XFCE and bspwm. Most notes are about this one. |
+| Dell Inspiron 3138 | Intel Celeron N2815 | 4 GB | Windows Ghost Spectre and Debian dual boot. |
+| Laptop 3 (Acer Aspire E1-470) | Intel Core i3-3217U | 2 GB | Debian and FreeBSD. |
 
 ## Categories
 
-- **System** — [Bluetooth OBEX Fix](./system/bluetooth-obex-fix.md), [Scroll Lock LED Fix](./system/scrolllock-led-fix.md), [SMART/HDD Health Check](./system/smart-hdd-check.md), [Manual Toolbox Script](./system/toolbox-script.md), [Quod Libet Crash Reset](./system/quodlibet_crash_reset_summary.md), [System Tuning — N3xxx](./system/system-tuning-n3xxx-summary.md)
-- **Boot** — [Boot Chain Theming Recap](./boot/boot-chain-theming-recap.md), [Debian GRUB Cerydra Setup](./boot/debian-grub-cerydra-setup.md), [EFI Partition Size Explainer](./boot/efi-partition-size-512-vs-513-mib.md), [Arch Linux Legacy BIOS Boot Fail](./boot/arch-linux-installation-failed-legacy-bios.md), [GRUB Reimu Theme Session](./boot/grub-reimu-theme-session.md)
-- **Desktop** — [Live Wallpaper — Debian XFCE Log](./desktop/live-wallpaper-debian-xfce-log.md), [Live Wallpaper System](./desktop/live-wallpaper-system.md), [XFWM4 Desktop Zoom Fix](./desktop/xfwm4-desktop-zoom-fix.md)
-- **Storage** — [USB Flashdisk Test & Setup](./storage/usb_flashdisk_test_setup.md), [Home Directory Reorganization](./storage/home-directory-reorganization.md)
-- **Android** — [Windows Ghost Spectre → Debian Dual Boot + Waydroid](./android/windows-ghost-spectre-debian-dualboot-waydroid.md)
-- **Gaming** — [Prism Launcher — Minecraft 1.7.10 Session](./gaming/prism_launcher_1.7.10_session.md)
+- **System** — [Bluetooth OBEX Fix](./system/bluetooth-obex-fix.md), [Scroll Lock LED Fix](./system/scrolllock-led-fix.md), [SMART/HDD Health Check](./system/smart-hdd-check.md), [Manual Toolbox Script](./system/toolbox-script.md), [Quod Libet Crash Reset](./system/quodlibet_crash_reset_summary.md), [System Tuning (N3xxx)](./system/system-tuning-n3xxx-summary.md)
+- **Boot** — [Boot Chain Theming Recap](./boot/boot-chain-theming-recap.md), [Debian GRUB Cerydra Setup](./boot/debian-grub-cerydra-setup.md), [GRUB Reimu Theme Session](./boot/grub-reimu-theme-session.md), [EFI Partition Size (512 vs 513 MiB)](./boot/efi-partition-size-512-vs-513-mib.md), [Arch Linux Boot Fail on Legacy BIOS](./boot/arch-linux-installation-failed-legacy-bios.md)
+- **Desktop** — [Live Wallpaper Log (Debian XFCE)](./desktop/live-wallpaper-debian-xfce-log.md), [Live Wallpaper System](./desktop/live-wallpaper-system.md), [Conky: Keep Visible on XFCE](./desktop/conky-xfce-keep-visible.md), [XFCE Nordic Theme Setup](./desktop/xfce-nordic-theme-setup.md), [XFWM4 Desktop Zoom Fix](./desktop/xfwm4-desktop-zoom-fix.md)
+- **Theming** — [Reimu Mouse Cursor Session](./theming/reimu-cursor-session.md)
+- **Tuning** — [Stress Test on a Tuned Laptop](./tuning/low-spec-stress-test.md), [zram Hybrid Mode (draft)](./tuning/zram-hybrid-draft.md)
+- **Optimization** — [Laptop 3 Debian Optimization (draft)](./optimization/laptop-3-debian-optimization-draft.md)
+- **Storage** — [USB Flashdisk Test and Setup](./storage/usb_flashdisk_test_setup.md), [Home Directory Reorganization](./storage/home-directory-reorganization.md)
+- **Hardware** — [Webcam Troubleshooting](./hardware/camera-webcam-troubleshooting.md)
+- **FreeBSD** — [FreeBSD 15.1 on Laptop 3: Install Log](./freebsd/freebsd-laptop3-installation-full-log.md)
+- **Android** — [Windows Ghost Spectre to Debian Dual Boot, and Waydroid](./android/windows-ghost-spectre-debian-dualboot-waydroid.md)
+- **Windows** — [Windows Ricing (draft)](./windows/windows-ricing-draft.md), [MiniStat.ini (Rainmeter skin)](./windows/MiniStat.ini)
+- **Gaming** — [Ender Lilies on Wine (N3xxx)](./gaming/ender-lilies-wine-n3xxx.md), [Ender Lilies: bspwm GPU Hang](./gaming/ender-lilies-bspwm-gpu-hang.md), [Momodora on Wine](./gaming/momodora-wine-debian.md), [Prism Launcher: Minecraft 1.7.10](./gaming/prism_launcher_1.7.10_session.md), [Minecraft FPS Test: Baseline](./minecraft-fps-tests/baseline/README.md)
 - **Learning** — [Folder Organization: What I Learned](./learning/folder-organization-learning.md), [Android Calculator Mod](./learning/android-calculator-mod.md)
 - **Reference** — [Shortcut Cheat Sheet](./reference/shortcuts-cheatsheet.md)
-- **Windows** — [Windows Ricing Draft](./windows/windows-ricing-draft.md) (Rainmeter skin config: [MiniStat.ini](./windows/MiniStat.ini))
 
 ## Templates
 
-The [`Examples/`](./Examples) folder has skeleton templates you can copy when writing a new note in this repo's style:
-- [Calculator/redesign-style project](./Examples/CalculatorExample.md)
+The [`Examples/`](./Examples) folder has simple templates. You can copy them when you write a new note in this style:
+
+- [Redesign project](./Examples/CalculatorExample.md)
 - [System tuning experiment](./Examples/DebianZRAMExample.md)
-- [Mistakes/lessons log](./Examples/NotesMistakesExample.md)
+- [Mistakes and lessons log](./Examples/NotesMistakesExample.md)
 
 ## About me
 
-I run Debian on a low-spec laptop (Intel Celeron, 2GB RAM) and enjoy making old hardware work well again, rather than replacing it. Most of these projects started as a simple annoyance (a password prompt, an LED that would not stay on) and turned into a deeper investigation of how Linux actually works underneath.
+I run Debian on low-spec laptops and I like to make old hardware work well again, instead of buying new hardware. Most of these notes started as a small problem (a password prompt, an LED that would not stay on) and became a deeper look at how Linux works inside.
 
-I use AI tools during development, but every fix here was tested, debugged, and understood by me — including the cases where the AI's first suggestion was wrong.
+I use AI tools when I work. But I test every fix myself and I try to understand it, including the times when the first answer from the AI was wrong.
 
 ## License
 
