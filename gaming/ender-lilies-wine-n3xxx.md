@@ -157,6 +157,4 @@ Wine Staging is regular Wine plus experimental patches that are not upstream yet
 - Keep DXVK at 2.5.3, do not run `winetricks dxvk` again.
 - Result: _to be filled in after testing._
 
-If the game crashes on bspwm, see [GPU hang fix](ender-lilies-bspwm-gpu-hang.md).
-
 See also: [Ender Lilies: GPU hang on bspwm](./ender-lilies-bspwm-gpu-hang.md), which explains the `VK_ERROR_DEVICE_LOST` problem in more detail.
