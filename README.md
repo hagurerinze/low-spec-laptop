@@ -49,6 +49,8 @@ I run Debian on low-spec laptops and I like to make old hardware work well again
 
 I use AI tools when I work. But I test every fix myself and I try to understand it, including the times when the first answer from the AI was wrong.
 
+![My XFCE desktop](./desktop/screenshots/debian-xfce-conky-monitoring.png)
+
 ## License
 
 Code is licensed under [MIT](LICENSE-CODE).
