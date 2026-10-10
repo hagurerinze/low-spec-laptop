@@ -1,6 +1,6 @@
-Status: draft, not applied
-
 # zram hybrid mode (draft, not applied)
+
+Status: draft, not applied
 
 ## Idea
 - Primary algorithm: lz4 (fast, low CPU for hot pages)

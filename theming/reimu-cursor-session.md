@@ -1,10 +1,5 @@
 # Session Notes: Hakurei Reimu Mouse Cursor on Debian XFCE
 
-## How the session started
-
-- Started out wanting to continue "organizing files part 3", but the files turned out to be on a **different laptop**, so that was dropped.
-- Switched topic to **finding a Hakurei Reimu mouse cursor** for the Debian XFCE laptop.
-
 ## First recommendation: Tubs' set on itch.io
 
 - Found a free **Reimu Hakurei cursor set by Tubs** on itch.io (`tubulartoasts.itch.io/reimu-cursor`).
