@@ -13,3 +13,7 @@ How to Use
 
 Notes
 Adjust the network interface and monitor paths inside the script to match your hardware.
+
+Layout Notes
+- *Center*: Used by XFCE and BSPWM (check `xfce-bspwm-center.conf`).
+- *Right*: Used by XFCE and BSPWM (check `xfce-bspwm-right.conf`).
