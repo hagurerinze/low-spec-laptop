@@ -47,11 +47,11 @@ conky -c /path/to/your/config.conf
 
 - Conky config: done
 - Manual start: works
-- Auto startup: **not done yet**
+- Auto startup: done
 
 ## Next Step
 
-- Set up auto startup, so conky starts when I log in.
+- Nothing left. Conky starts by itself when I log in.
 
 ## Lessons
 
